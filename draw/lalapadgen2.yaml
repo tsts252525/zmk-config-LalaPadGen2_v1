@@ -33,24 +33,24 @@ layers:
   - LCTRL
   - LWIN
   - LEFT ALT
-  - secondary_layer
-  - SPACE
-  - LEFT SHIFT
+  - {t: LANG2, h: tertiary_layer}
+  - {t: SPACE, h: secondary_layer}
+  - {t: LANG1, h: Arrow}
   - BACKSPACE
   - ENTER
-  - tertiary_layer
-  - C
-  - A
+  - Arrow
+  - LANGUAGE 2
+  - LANGUAGE 1
   - \
   - ''
-  - RIGHT
-  - DOWN
   - LEFT
   - UP
-  - UP
-  - LEFT
+  - RIGHT
+  - DOWN
   - DOWN
   - RIGHT
+  - UP
+  - LEFT
   - ''
   - '&mkp LCLK'
   - '&mkp RCLK'
@@ -69,48 +69,48 @@ layers:
   - Gui+D
   - LCTRL
   secondary_layer:
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - KP NUMLOCK
+  - '-'
   - KP 7
   - KP 8
   - KP 9
-  - KP PLUS
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - +
   - {t: ▽, type: trans}
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP MINUS
-  - F6
   - F7
   - F8
   - F9
   - F10
+  - /
+  - KP 4
+  - KP 5
+  - KP 6
+  - '*'
   - {t: ▽, type: trans}
+  - F4
+  - F5
+  - F6
+  - F11
+  - KP 0
   - KP 1
   - KP 2
   - KP 3
-  - KP ASTERISK
+  - .
+  - ESCAPE
+  - F1
+  - F2
+  - F3
+  - F12
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - KP 0
-  - KP DOT
-  - KP DIVIDE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -139,44 +139,44 @@ layers:
   - {t: ▽, type: trans}
   tertiary_layer:
   - '!'
-  - '@'
+  - '&'
   - '#'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '{'
+  - '}'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '~'
   - $
   - '%'
-  - PAGE UP
-  - HOME
-  - UP ARROW
-  - END
-  - PRINTSCREEN
   - ^
-  - '&'
-  - '*'
+  - {t: ▽, type: trans}
   - (
   - )
-  - PAGE DOWN
-  - LEFT
-  - DOWN ARROW
-  - RIGHT
-  - SCROLLLOCK
+  - ':'
+  - '"'
+  - \
   - '`'
-  - ''''
-  - ;
+  - '!'
+  - '@'
+  - '#'
+  - {t: ▽, type: trans}
   - '['
   - ']'
-  - {t: ▽, type: trans}
-  - '&mkp MB4'
-  - {t: ▽, type: trans}
-  - '&mkp MB5'
-  - PAUSE BREAK
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ;
+  - ''''
+  - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -226,7 +226,7 @@ layers:
   - '&bootloader'
   - BT CLR
   - BT CLR ALL
-  - {t: ▽, type: trans}
+  - '&tog_ls'
   - F11
   - F12
   - F13
@@ -241,11 +241,80 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Arrow:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - HOME
+  - LEFT ARROW
+  - DOWN
+  - RIGHT
+  - END
+  - HOME
+  - LEFT
+  - DOWN ARROW
+  - RIGHT
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -276,10 +345,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [0, 1]
+- p: [1, 2]
   k: ESCAPE
-- p: [10, 11]
+- p: [11, 12]
   k: TAB
+- p: [10, 20]
+  k: Sft+CAPS
+- p: [10, 11]
+  k: CAPSLOCK
 layout:
   qmk_info_json: keymap_drawer_layout.json
   layout_name: LAYOUT
