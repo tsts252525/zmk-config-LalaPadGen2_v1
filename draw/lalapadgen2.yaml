@@ -33,15 +33,15 @@ layers:
   - LCTRL
   - LWIN
   - LEFT ALT
-  - {t: SPACE, h: secondary_layer}
-  - {t: LANG5, h: tertiary_layer}
+  - {t: CAPSLOCK, h: secondary_layer}
+  - {t: SPACE, h: tertiary_layer}
   - {t: LANG1, h: Arrow}
-  - {t: LANGUAGE 2, h: Arrow}
-  - BACKSPACE
+  - {t: BACKSPACE, h: Arrow}
   - ENTER
+  - {t: Arrow, h: sticky}
   - '='
   - '~'
-  - '!'
+  - DEL
   - ''
   - RIGHT
   - DOWN
@@ -139,7 +139,7 @@ layers:
   - {t: ▽, type: trans}
   tertiary_layer:
   - {t: ▽, type: trans}
-  - '&'
+  - ^
   - '*'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -151,7 +151,7 @@ layers:
   - '~'
   - '!'
   - '@'
-  - ^
+  - '&'
   - {t: ▽, type: trans}
   - (
   - )
