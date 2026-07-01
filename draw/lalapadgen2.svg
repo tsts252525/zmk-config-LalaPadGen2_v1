@@ -265,38 +265,36 @@ path.combo {
 </g>
 <g transform="translate(196, 196)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
+<text x="0" y="0" class="key tap">SPACE</text>
 <a href="#secondary_layer">
 <text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">secondary_…</tspan></text>
 </a></g>
 <g transform="translate(252, 196)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">SPACE</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
 <a href="#tertiary_layer">
 <text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">tertiary_l…</tspan></text>
 </a></g>
 <g transform="translate(308, 196)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LANG1</text>
 <a href="#Arrow">
-<text x="0" y="24" class="key hold layer-activator">Arrow</text>
+<text x="0" y="0" class="key tap layer-activator">Arrow</text>
 </a></g>
 <g transform="translate(364, 196)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
-<a href="#Arrow">
-<text x="0" y="24" class="key hold layer-activator">Arrow</text>
+<a href="#tertiary_layer">
+<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">tertiary_l…</tspan></text>
 </a></g>
 <g transform="translate(420, 196)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">ENTER</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
 <g transform="translate(476, 196)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">ENTER</text>
 <a href="#Arrow">
-<text x="0" y="0" class="key tap layer-activator">Arrow</text>
-</a><text x="0" y="24" class="key hold">sticky</text>
-</g>
+<text x="0" y="24" class="key hold layer-activator">Arrow</text>
+</a></g>
 <g transform="translate(532, 196)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">=</text>
@@ -446,14 +444,10 @@ path.combo {
 <text x="112" y="84" class="combo tap">TAB</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="14" y="99" width="28" height="26" class="combo"/>
-<text x="28" y="112" class="combo tap">
-<tspan x="28" dy="-0.6em">Sft+</tspan><tspan x="28" dy="1.2em">CAPS</tspan>
+<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
+<text x="112" y="140" class="combo tap">
+<tspan x="112" dy="-0.6em">Sft+</tspan><tspan x="112" dy="1.2em">CAPS</tspan>
 </text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="42" y="71" width="28" height="26" class="combo"/>
-<text x="56" y="84" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
 </g>
 </g>
 </g>
@@ -768,14 +762,10 @@ path.combo {
 <text x="112" y="84" class="combo tap">TAB</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="14" y="99" width="28" height="26" class="combo"/>
-<text x="28" y="112" class="combo tap">
-<tspan x="28" dy="-0.6em">Sft+</tspan><tspan x="28" dy="1.2em">CAPS</tspan>
+<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
+<text x="112" y="140" class="combo tap">
+<tspan x="112" dy="-0.6em">Sft+</tspan><tspan x="112" dy="1.2em">CAPS</tspan>
 </text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="42" y="71" width="28" height="26" class="combo"/>
-<text x="56" y="84" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
 </g>
 </g>
 </g>
@@ -1062,14 +1052,10 @@ path.combo {
 <text x="112" y="84" class="combo tap">TAB</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="14" y="99" width="28" height="26" class="combo"/>
-<text x="28" y="112" class="combo tap">
-<tspan x="28" dy="-0.6em">Sft+</tspan><tspan x="28" dy="1.2em">CAPS</tspan>
+<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
+<text x="112" y="140" class="combo tap">
+<tspan x="112" dy="-0.6em">Sft+</tspan><tspan x="112" dy="1.2em">CAPS</tspan>
 </text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="42" y="71" width="28" height="26" class="combo"/>
-<text x="56" y="84" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
 </g>
 </g>
 </g>
@@ -1375,14 +1361,10 @@ path.combo {
 <text x="112" y="84" class="combo tap">TAB</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="14" y="99" width="28" height="26" class="combo"/>
-<text x="28" y="112" class="combo tap">
-<tspan x="28" dy="-0.6em">Sft+</tspan><tspan x="28" dy="1.2em">CAPS</tspan>
+<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
+<text x="112" y="140" class="combo tap">
+<tspan x="112" dy="-0.6em">Sft+</tspan><tspan x="112" dy="1.2em">CAPS</tspan>
 </text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="42" y="71" width="28" height="26" class="combo"/>
-<text x="56" y="84" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
 </g>
 </g>
 </g>
@@ -1677,14 +1659,10 @@ path.combo {
 <text x="112" y="84" class="combo tap">TAB</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="14" y="99" width="28" height="26" class="combo"/>
-<text x="28" y="112" class="combo tap">
-<tspan x="28" dy="-0.6em">Sft+</tspan><tspan x="28" dy="1.2em">CAPS</tspan>
+<rect rx="6" ry="6" x="98" y="127" width="28" height="26" class="combo"/>
+<text x="112" y="140" class="combo tap">
+<tspan x="112" dy="-0.6em">Sft+</tspan><tspan x="112" dy="1.2em">CAPS</tspan>
 </text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="42" y="71" width="28" height="26" class="combo"/>
-<text x="56" y="84" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
 </g>
 </g>
 </g>

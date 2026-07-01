@@ -33,12 +33,12 @@ layers:
   - LCTRL
   - LWIN
   - LEFT ALT
-  - {t: CAPSLOCK, h: secondary_layer}
-  - {t: SPACE, h: tertiary_layer}
-  - {t: LANG1, h: Arrow}
-  - {t: BACKSPACE, h: Arrow}
-  - ENTER
-  - {t: Arrow, h: sticky}
+  - {t: SPACE, h: secondary_layer}
+  - {t: CAPSLOCK, h: tertiary_layer}
+  - Arrow
+  - tertiary_layer
+  - BACKSPACE
+  - {t: ENTER, h: Arrow}
   - '='
   - '~'
   - DEL
@@ -349,10 +349,8 @@ combos:
   k: ESCAPE
 - p: [11, 12]
   k: TAB
-- p: [10, 20]
+- p: [21, 22]
   k: Sft+CAPS
-- p: [10, 11]
-  k: CAPSLOCK
 layout:
   qmk_info_json: keymap_drawer_layout.json
   layout_name: LAYOUT
